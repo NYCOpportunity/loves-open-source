@@ -4,11 +4,14 @@
   "description": "NYCO Opportunity supports and promotes open source software development.",
   "license": "GPL-3.0+",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NYCOpportunity/loves-open-source"
+  },
   "scripts": {
     "start": "PORT=7070 NODE_ENV=development concurrently \"pttrn -w\" \"pttrn serve -w\" -p \"none\"",
     "version": "npm run default && git add .",
-    "prepublishOnly": "git push && git push --tags",
-    "publish": "NODE_ENV=production pttrn publish",
+    "ghpages": "NODE_ENV=production pttrn publish",
     "default": "NODE_ENV=production pttrn",
     "meta": "pttrn meta"
   },
