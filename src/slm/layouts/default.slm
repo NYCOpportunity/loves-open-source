@@ -8,7 +8,26 @@ html lang='en'
     link rel='icon' type='image/svg+xml' href='${this.root}/svg/pttrn-a-perfect-heart-red.svg'
     / link rel='icon' type='image/svg+xml' href='${this.root}/img/favicon/favicon.svg'
 
-    title NYCO Loves Open-source
+    - let title = 'NYC Opportunity and Open-source';
+    - let description = 'The Mayor\’s Office for Economic Opportunity (NYC Opportunity) supports and promotes open-source software development. Here is a list of public repositories on GitHub, including public-facing digital products and packages used by our products.'
+    - let url = this.root;
+    - let image = `${this.root}/img/open-graph.png`
+
+    title = title
+    meta name='title' content=title
+    meta name='description' content=description
+
+    meta property='og:type' content='website'
+    meta property='og:url' content=url
+    meta property='og:title' content=title
+    meta property='og:description' content=description
+    meta property='og:image' content=image
+
+    meta property='twitter:card' content='summary_large_image'
+    meta property='twitter:url' content=url
+    meta property='twitter:title' content=title
+    meta property='twitter:description' content=description
+    meta property='twitter:image' content=image
 
     link href='https://fonts.gstatic.com' rel='preconnect'
     link href='https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap' rel='stylesheet'
