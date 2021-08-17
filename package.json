@@ -11,7 +11,7 @@
   "scripts": {
     "start": "PORT=7070 NODE_ENV=development concurrently \"pttrn -w\" \"pttrn serve -w\" -p \"none\"",
     "version": "npm run default && git add .",
-    "ghpages": "NODE_ENV=production pttrn publish",
+    "ghpages": "npm run default && NODE_ENV=production pttrn publish",
     "default": "NODE_ENV=production pttrn",
     "meta": "pttrn meta"
   },
@@ -21,7 +21,7 @@
     "octokit": "^1.4.0"
   },
   "dependencies": {
-    "@nycopportunity/patterns": "file:../../cityofnewyork/nyco-patterns",
+    "@nycopportunity/patterns": "^2.6.14",
     "@nycopportunity/pttrn-scripts": "^1.0.7",
     "@optoolco/tonic": "^13.3.5",
     "animate.scss": "^0.0.6"
