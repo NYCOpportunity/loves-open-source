@@ -1,0 +1,17 @@
+@charset 'utf-8';
+
+@import '@nycopportunity/patterns/src/scss/_assets.scss';
+
+@import '@nycopportunity/patterns/src/scss/_objects.scss';
+
+@import '@nycopportunity/patterns/src/scss/_elements.scss';
+
+// Utilities
+// @import '@nycopportunity/pttrn-scripts/src/spinner/_spinner.scss';
+@import '@nycopportunity/patterns/src/utilities/type/_type.scss';
+@import '@nycopportunity/patterns/src/utilities/colors/_colors.scss';
+@import '@nycopportunity/patterns/src/utilities/animate/_animate.scss';
+@import '@nycopportunity/patterns/src/utilities/first-last/_first-last.scss';
+@import '@nycopportunity/patterns/dist/utilities/tailwindcss/_tailwindcss.scss';
+
+@import '@nycopportunity/patterns/src/scss/_components.scss';

@@ -1,0 +1,26 @@
+{
+  "name": "@nycopportunity/loves-open-source",
+  "author": "NYC Opportunity <products@nycopportunity.nyc.gov>",
+  "description": "NYCO Opportunity supports and promotes open source software development.",
+  "license": "GPL-3.0+",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "PORT=7070 NODE_ENV=development concurrently \"pttrn -w\" \"pttrn serve -w\" -p \"none\"",
+    "version": "npm run default && git add .",
+    "prepublishOnly": "git push && git push --tags",
+    "publish": "NODE_ENV=production pttrn publish",
+    "default": "NODE_ENV=production pttrn",
+    "meta": "pttrn meta"
+  },
+  "devDependencies": {
+    "@nycopportunity/pttrn": "^1.0.7",
+    "http-proxy-agent": "^4.0.1",
+    "octokit": "^1.4.0"
+  },
+  "dependencies": {
+    "@nycopportunity/patterns": "file:../../cityofnewyork/nyco-patterns",
+    "@nycopportunity/pttrn-scripts": "^1.0.7",
+    "@optoolco/tonic": "^13.3.5",
+    "animate.scss": "^0.0.6"
+  }
+}

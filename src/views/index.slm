@@ -1,0 +1,11 @@
+= extend('/slm/layouts/default')
+
+= content('main')
+  section class='layout-content px-2 tablet:px-3 pt-8'
+    div class='mx-auto'
+      == this.include('../README.md')
+
+  section class='layout-wrap mx-auto px-2 tablet:px-3 pt-8'
+    nyco-repo-archive class='grid tablet:grid-cols-2 gap-3 list-none p-0'
+
+= content('scripts')
