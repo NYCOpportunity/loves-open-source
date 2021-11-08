@@ -6,7 +6,6 @@ html lang='en'
     meta name='viewport' content='width=device-width, initial-scale=1'
 
     link rel='icon' type='image/svg+xml' href='${this.root}/svg/pttrn-a-perfect-heart-red.svg'
-    / link rel='icon' type='image/svg+xml' href='${this.root}/img/favicon/favicon.svg'
 
     - let title = 'NYC Opportunity and Open-source';
     - let description = 'The Mayor\’s Office for Economic Opportunity (NYC Opportunity) supports and promotes open-source software development. Here is a list of public repositories on GitHub, including public-facing digital products and packages used by our products.'
@@ -33,28 +32,11 @@ html lang='en'
     link href='https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap' rel='stylesheet'
     link href='${this.root}/css/default.css' rel='stylesheet'
 
-    / link rel='stylesheet' href='https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/styles/default.min.css'
-    / script src='//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/highlight.min.js'
-
-    / javascript:
-    /   document.addEventListener('DOMContentLoaded', function(event) {
-    /     hljs.configure({
-    /       languages: ['html', 'javascript', 'css', 'sass']
-    /     });
-
-    /     document.querySelectorAll('pre')
-    /       .forEach(function(pre) {
-    /         pre.setAttribute('tabindex', '0');
-
-    /         hljs.highlightBlock(pre);
-    /       });
-    /   });
-
   body class='bg-blue'
     header class='color-primary-background px-2 tablet:px-3 py-8'
       div class='layout-wrap mx-auto text-center'
         h1
-          svg width='298' height='240' aria-hidden='true'
+          svg class='icon' width='298' height='240' aria-hidden='true'
             use xlink:href='#pttrn-logo-nyco-and-open-source'
 
           span class='sr-only' = 'NYCO and Open-source'

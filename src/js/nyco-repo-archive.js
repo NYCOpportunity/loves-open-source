@@ -69,7 +69,7 @@ class NycoRepoArchive extends Tonic {
             <p>${String(repo.description)}</p>
           </div>
 
-          <a class="c-card__cta" href="${repo.url}"></a>
+          <a class="c-card__cta" href="${repo.url}" target="_blank"></a>
         </article>
       `);
     }
