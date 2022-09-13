@@ -5,7 +5,7 @@ html lang='en'
     meta http-equiv='X-UA-Compatible' content='IE=edge'
     meta name='viewport' content='width=device-width, initial-scale=1'
 
-    link rel='icon' type='image/svg+xml' href='${this.root}/svg/pttrn-a-perfect-heart-red.svg'
+    link rel='icon' type='image/svg+xml' href='${this.root}/svg/pttrn-logo-nyc-loves-open-source-favicon.svg'
 
     - let title = 'NYC Opportunity and Open-source';
     - let description = 'The Mayor\’s Office for Economic Opportunity (NYC Opportunity) supports and promotes open-source software development. Here is a list of public repositories on GitHub, including public-facing digital products and packages used by our products.'
