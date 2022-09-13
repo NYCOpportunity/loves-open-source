@@ -3,7 +3,7 @@
   "author": "NYC Opportunity <products@nycopportunity.nyc.gov>",
   "description": "NYCO Opportunity supports and promotes open source software development.",
   "license": "GPL-3.0+",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/NYCOpportunity/loves-open-source"
